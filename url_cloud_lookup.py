@@ -8,12 +8,12 @@ pp = os.environ.get('pp')
 dfs = pd.DataFrame(columns=['URL','Reputation','Reputation_Score','Category_ID','Category_Confidence','Category'])
 remote_device = {
     'device_type': 'flexvnf_ssh',
-    'ip': "10.156.67.151",
+    'ip': "10.0.0.1",
     'username': "admin",
 #    'password': "versa123",
     'use_keys': True,
 #    'allow_agent': true,
-    'key_file': '/mnt/c/Users/RNNAN2/Documents/openssh_key',
+    'key_file': '/mnt/c/Users/USER/Documents/openssh_key',
     'passphrase': pp
 }
 #outputs = []
